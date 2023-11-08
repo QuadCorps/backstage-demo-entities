@@ -3,7 +3,7 @@ kind: Component
 metadata:
   name: demo-repo
   annotations:
-    sonarqube.org/project-key: Sample-SQ-project
+    sonarqube.org/project-key: default/Sample-SQ-project
 spec:
   type: documentation
   lifecycle: development
