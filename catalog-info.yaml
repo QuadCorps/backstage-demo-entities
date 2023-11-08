@@ -1,0 +1,6 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: demo-repo
+  annotations:
+    sonarqube.org/project-key: Sample-SQ-project
