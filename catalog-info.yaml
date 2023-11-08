@@ -4,3 +4,12 @@ metadata:
   name: demo-repo
   annotations:
     sonarqube.org/project-key: Sample-SQ-project
+spec:
+  type: documentation
+  lifecycle: development
+  owner: team-a
+  system: artist-engagement-portal
+  dependsOn:
+    - resource:default/artists-db
+  providesApis:
+    - artist-api
