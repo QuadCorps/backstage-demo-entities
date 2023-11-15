@@ -12,7 +12,7 @@ metadata:
     grafana/overview-dashboard: "https://grafana.ak.dev.quaddemo.co.uk/d-solo/09ec8aa1e996d6ffcd6817bbaff4db1b/kubernetes-api-server?orgId=1&refresh=10s&from=1699430369643&to=1699433969643&panelId=10"
     jenkins.io/job-full-name: some-project/test-build
     backstage.io/techdocs-ref: url:https://github.com/andrewgkew/doc-test/tree/master
-    backstage.io/kubernetes-label-selector: "app.kubernetes.io/name=backstage"
+    backstage.io/kubernetes-label-selector: "app.kubernetes.io/name=loki"
 spec:
   type: service
   lifecycle: development
