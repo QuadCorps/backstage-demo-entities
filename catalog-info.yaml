@@ -13,6 +13,7 @@ metadata:
     jenkins.io/job-full-name: some-project/test-build
     backstage.io/techdocs-ref: url:https://github.com/andrewgkew/doc-test/tree/master
     backstage.io/kubernetes-label-selector: "app.kubernetes.io/name=loki"
+    jira/project-key: TEST
 spec:
   type: service
   lifecycle: development
