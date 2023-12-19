@@ -13,6 +13,8 @@ metadata:
     - url: https://github.com/OAI/OpenAPI-Specification/blob/master/examples/v3.0/petstore.yaml
       title: API Spec
       icon: code
+  annotations:
+    backstage.io/spectral-ruleset-url: ".spectral.yaml"
 spec:
   type: openapi
   lifecycle: experimental
