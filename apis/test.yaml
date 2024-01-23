@@ -4,19 +4,4 @@ info:
   version: 1.0.0
 paths:
   /user/{userId}:
-    get:
-      summary: Get user information
-      parameters:
-        - in: path
-          name: userId
-          required: true
-          schema:
-            type: string
-      responses:
-        '200':
-          description: Successful response
-          content:
-            application/json:
-              example:
-                $ref: 'user-example.yaml'
-
+    $ref: 'definitions/user.yaml'
