@@ -18,8 +18,5 @@ paths:
           content:
             application/json:
               example:
-                id: "123"
-                name: John Doe
-                email: john.doe@example.com
-components:
-  $ref: definitions.yaml
+                $ref: 'user-example.yaml'
+
