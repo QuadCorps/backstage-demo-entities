@@ -4,4 +4,4 @@ info:
   version: 1.0.0
 paths:
   /user/{userId}:
-    $ref: 'definitions/user.yaml'
+    $ref: 'definitions.yaml'
