@@ -14,4 +14,4 @@ spec:
   lifecycle: production
   owner: team-a
   definition:
-    $openapi: https://github.com/QuadCorps/backstage-demo-entities/edit/main/apis/test.yaml
+    $text: https://github.com/QuadCorps/backstage-demo-entities/edit/main/apis/test.yaml
