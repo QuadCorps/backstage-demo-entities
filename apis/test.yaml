@@ -20,10 +20,10 @@ paths:
           content:
             application/json:
               schema:
-      #           $ref: "definitions.yaml#/components/schemas/DataOptionList"
-      #   "400":
-      #     $ref: "definitions.yaml#/components/responses/ClientError"
-      #   "500":
-      #     $ref: "definitions.yaml#/components/responses/ServerError"
-      # tags:
-      #   - Vehicle Search
+                $ref: "definitions.yaml#/components/schemas/DataOptionList"
+        "400":
+          $ref: "definitions.yaml#/components/responses/ClientError"
+        "500":
+          $ref: "definitions.yaml#/components/responses/ServerError"
+      tags:
+        - Vehicle Search
